@@ -9,20 +9,27 @@ GENERAL
 }
 
 body {
+  position:absolute;
+  width: 100%;
   background-color: #f6f8f9;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header .container, #container, #addsections {
+  background-color: white;
+}
+ 
 /*
  HEADER
  */
 
 header .container {
+  position: relative;
   width: 100%;
+  height: 20%;
   min-width: inherit;
   margin: 0 auto;
-  padding: 10px 30px;
-  background-color: white;
+  padding: 20px 40px;
 }
 header .logo img{
   width: 50px;
@@ -31,10 +38,46 @@ header .logo img{
 
 #textlist{
   display: inline-block;
-  font-size: 2.5em;
+  font-size: 40px;
   font-weight: 700;
 }
 
  /*
  MAIN
  */
+
+#container {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 70%;
+  margin: 4% 15% 2% 15%;
+  color: blue;
+  border-radius: 10px;
+
+ }
+.nav-buttons {
+  border-bottom: 3px solid #f6f8f9;
+  padding: 20px 20px 8px 50px;
+  color: white;
+}
+ #add-task, #add-sections {
+   padding: 6px 12px;
+   border-radius: 8px;
+   margin-left: 5px;
+   margin-bottom: 10px;
+ }
+#add-task {
+  background-color: #47adf1;
+  border: 2px solid #47adf1;
+  color: white;
+}
+#add-sections {
+  color: #c5cbd0;
+  border: 2px solid #c5cbd0;
+}
+
+ .main-text {
+   height: 356px;
+   background-color: white
+ }
