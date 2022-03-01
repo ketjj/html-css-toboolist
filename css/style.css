@@ -13,7 +13,7 @@ body {
   width: 100%;
   background-color: #f6f8f9;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+  font-weight: 500;
 }
 
 header .container, #container, #add-sections {
@@ -58,7 +58,7 @@ header .logo img{
 
  }
 
- .nav-buttons, .first-list-container, .second-list-container {
+ .nav-buttons, .first-list-container, .second-list-container, .third-list-container {
   padding: 20px 20px 8px 50px;
  }
 .nav-buttons {
@@ -94,13 +94,16 @@ header .logo img{
    width: 8px;
  }
 
- .first-list-container, .second-list-container {
+ .first-list-container, .second-list-container, .third-list-container {
    color: black;
    position: relative;
    box-sizing: border-box;
    display: inline-block;
    width: 70%;
-   padding-top: 20px;  
+   padding-top: 15px;  
+ }
+ .third-list-container {
+   margin-bottom: 25px;
  }
   .list-item {
     margin-top: 15px;
@@ -134,6 +137,12 @@ header .logo img{
  .orange {
    background-color: #f29e33;
  }
+.pink {
+  background-color: #d863a1;
+}
+.lightgreen {
+  background-color: #b0c926;
+}
  .square {
   font-size: 12px;
   color: white;
