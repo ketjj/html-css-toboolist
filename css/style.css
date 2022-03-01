@@ -13,9 +13,10 @@ body {
   width: 100%;
   background-color: #f6f8f9;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
 }
 
-header .container, #container, #addsections {
+header .container, #container, #add-sections {
   background-color: white;
 }
  
@@ -56,9 +57,12 @@ header .logo img{
   border-radius: 10px;
 
  }
+
+ .nav-buttons, .first-list-container, .second-list-container {
+  padding: 20px 20px 8px 50px;
+ }
 .nav-buttons {
   border-bottom: 3px solid #f6f8f9;
-  padding: 20px 20px 8px 50px;
   color: white;
 }
  #add-task, #add-sections {
@@ -80,4 +84,60 @@ header .logo img{
  .main-text {
    height: 356px;
    background-color: white
+ }
+
+ .list-object .title {
+   font-size: 20px;
+   font-weight: 800;
+ }
+ .arrow-symbol {
+   width: 8px;
+ }
+
+ .first-list-container, .second-list-container {
+   color: black;
+   position: relative;
+   box-sizing: border-box;
+   display: inline-block;
+   width: 70%;
+   padding-top: 20px;  
+ }
+  .list-item {
+    margin-top: 15px;
+  }
+ .check-symbol {
+   font-weight: bold;
+   color: #65c0a9;
+   border: 1px solid #65c0a9;
+   border-radius: 50%;
+   padding: 5px;
+   vertical-align: middle;
+ }
+
+ .crossed-symbol {
+  font-weight: bold;
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 5px;
+ }
+
+ .blue {
+   background-color: #47adf1;
+ }
+ .violet {
+   background-color: #9c72e4;
+ }
+ .green {
+   background-color: #64c0a9;
+ }
+ .orange {
+   background-color: #f29e33;
+ }
+ .square {
+  font-size: 12px;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 200px;
+  margin-left: 2px;
  }
