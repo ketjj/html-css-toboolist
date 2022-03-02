@@ -11,12 +11,8 @@
 <body>
   
   <header>
-    <div class="container">
-      <div class="logo">
-        <img src="css/img/Logo.png" alt="Logotoboolist">
-        <h1 id="textlist">Toboolist</h1>
-      </div>
-    </div>
+      <img src="css/img/Logo.png" alt="Logotoboolist" class="logo">
+      <span class="logo-text">Toboolist</span>
   </header>
   
   <main id="container">
@@ -27,88 +23,92 @@
 
     <!-- new task starts here! -->
     
-    <div class="first-list-container">
-        <div class="list-object">
-          <span class="arrow-symbol">&#9660;</span>
-          <span class="title">New Task</span>
-        </div>
+    <div class="main-container">
+      <ul>
+        <li>
+          <h3 class="title">New task</h3>
+           <ul>
+             <li>
+               <span class="circle checked"></span>
+               <span class="list-item-name">Preparare la Newsletter</span>
+               <span class="blue square" title="editorial">Editorial</span>
+              </li>
+            </ul>
+         </li>
 
-        <div class="list-item">
-          <span class="check-symbol">&#10003;</span>
-          <span class="list-item-name"> Quarterly Newsletter</span>
-          <span class="blue square" title="editorial">Editorial</span>
-        </div>  
-    </div>
 
     <!-- today starts here! -->
 
-    <div class="second-list-container">
+        <li>
+          <h3 class="title">Today</h3>
+           <ul>
+              <li>
+                <span class="circle checked"></span>
+                <span class="list-item-name"> Reqruuiting blog post</span>
+                <span class="blue square" title="editorial">Editorial</span>
+              </li>
 
-        <div class="list-object">
-          <span class="arrow-symbol">&#9660;</span>
-          <span class="title">Today</span>
-        </div>
+              <li>
+                <span class="circle checked"></span>
+                <span class="list-item-name">Mobile app launch</span>
+                <span class="violet square" title="Q1">Q1 Goals</span>
+              </li>
 
-        <div class="list-item">
-          <span class="check-symbol">&#10003;</span>
-          <span class="list-item-name"> Reqruuiting blog post</span>
-          <span class="blue square" title="editorial">Editorial</span>
-        </div>  
+              <li>
+                <span class="circle crossed"></span>
+                <span class="list-item-name">Interview with John.H</span>
+                <span class="green square" title="Recruiting">Recruiting</span>
+              </li>
 
-        <div class="list-item">
-          <span class="check-symbol">&#10003;</span>
-          <span class="list-item-name"> Mobile app launch</span>
-          <span class="violet square" title="Q1">Q1 Goals</span>
-        </div> 
+              <li>
+                <span class="circle checked"></span>
+                <span class="list-item-name">Summit update to mobile storefronts</span>
+                <span class="orange square" title="Mobile">Mobile Goals</span>
+              </li>
 
-        <div class="list-item">
-          <span class="crossed-symbol">&#x2715;</span>
-          <span class="list-item-name"> Interview with John.H</span>
-          <span class="green square" title="Recruiting">Recruiting</span>
-        </div> 
-
-        <div class="list-item">
-          <span class="check-symbol">&#10003;</span>
-          <span class="list-item-name"> Summit update to mobile storefronts</span>
-          <span class="orange square" title="Mobile">Mobile Goals</span>
-        </div> 
-    </div>
-
-    <!-- upcoming starts here! -->
-
-    <div class="third-list-container">
-
-      <div class="list-object">
-        <span class="arrow-symbol">&#9660;</span>
-        <span class="title">Today</span>
-      </div>
-
-      <div class="list-item">
-        <span class="crossed-symbol">&#x2715;</span>
-        <span class="list-item-name"> Sheduled meeting with Alex</span>
-      </div>
-        
-      <div class="list-item">
-        <span class="check-symbol">&#10003;</span>
-        <span class="list-item-name"> Homepage refresh</span>
-        <span class="pink square" title="Website">Website</span>
-      </div> 
-
-      <div class="list-item">
-        <span class="check-symbol">&#10003;</span>
-        <span class="list-item-name"> Onboard new Sales team members</span>
-        <span class="lightgreen square" title="Sales">Sales</span>
-      </div> 
+           </ul>
+        </li>
       
-      <div class="list-item">
-        <span class="check-symbol">&#10003;</span>
-        <span class="list-item-name"> Review editorial calendar</span>
-        <span class="blue square" title="editorial">Editorial</span>
-      </div>  
-    </div>
-  </main>
-</body>
-</html>
+        <!-- upcoming starts here! -->
+
+        <li>
+          <h3 class="title">Upcoming</h3>
+           <ul>
+             <li>
+               <span class="circle crossed"></span>
+               <span class="list-item-name"> Sheduled meeting with Alex</span>
+               <span class="blue square" title="editorial">Editorial</span>
+              </li>
+
+              <li>
+                <span class="circle checked"></span>
+                <span class="list-item-name"> Homepage refresh</span>
+                <span class="pink square" title="Website">Website</span>
+              </li>
+
+              <li>
+                <span class="circle checked"></span>
+                <span class="list-item-name"> Onboard new Sales team members</span>
+                <span class="lightgreen square" title="Sales">Sales</span>
+              </li>
+
+              <li>
+                <span class="circle checked"></span>
+                <span class="list-item-name"> Review editorial calendar</span>
+                <span class="blue square" title="editorial">Editorial</span>
+              </li>
+ 
+            </ul>
+         </li>
+       </ul>
+     </div>
+    </main>
+  </body>
+  </html>
+
+
+    
+    
             
           
         
